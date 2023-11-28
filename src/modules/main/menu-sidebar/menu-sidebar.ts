@@ -28,24 +28,34 @@ export default class MenuSidebar extends Vue {
 export const MENU = [
     {
         name: i18n.global.t('labels.dashboard'),
-        path: '/'
+        path: '/',
+        icon: "fa fas fa-chart-line",
+        adminOnly: false
     },
     {
-        name: i18n.global.t('labels.blank'),
-        path: '/blank'
+        name: i18n.global.t('labels.devices'),
+        path: '/blank',
+        icon: "fa fas fa-microchip",
+        adminOnly: false
     },
     {
-        name: i18n.global.t('labels.mainMenu'),
-        children: [
-            {
-                name: i18n.global.t('labels.subMenu'),
-                path: '/sub-menu-1'
-            },
+        name: i18n.global.t('labels.users'),
+        path: '/blank',
+        icon: "fa fas fa-users",
+        adminOnly: true
+    },    
+    // {
+    //     name: i18n.global.t('labels.mainMenu'),
+    //     children: [
+    //         {
+    //             name: i18n.global.t('labels.subMenu'),
+    //             path: '/sub-menu-1'
+    //         },
 
-            {
-                name: i18n.global.t('labels.blank'),
-                path: '/sub-menu-2'
-            }
-        ]
-    }
+    //         {
+    //             name: i18n.global.t('labels.blank'),
+    //             path: '/sub-menu-2'
+    //         }
+    //     ]
+    // }
 ];

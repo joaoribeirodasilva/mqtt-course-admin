@@ -1,7 +1,10 @@
 <div class="register-box">
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <router-link to="/" class="h1"><b>Admin</b>LTE</router-link>
+            <router-link to="/" class="h1">
+                <img src="assets/img/logo_light.png" alt="AdminLTE Logo" class="brand-image" height="50" width="50">                
+                <b>{{ $t("labels.mqtt")}}</b> {{ $t("labels.admin") }}
+            </router-link>
         </div>
         <div class="card-body">
             <p class="login-box-msg">{{ $t("labels.registerMembership") }}</p>
@@ -35,7 +38,7 @@
                     <div class="col-7">
                         <pf-checkbox type="icheck" v-model="agreeTerms">
                             {{ $t("labels.iAgree") }}
-                            <a href="#">{{ $t("labels.terms") }}</a>
+                            <router-link to="/privacy-policy">{{ $t("labels.terms") }}</router-link>
                         </pf-checkbox>
                     </div>
                     <!-- /.col -->
@@ -53,7 +56,7 @@
                 </div>
             </form>
 
-            <div class="social-auth-links text-center">
+            <!-- <div class="social-auth-links text-center">
                 <pf-button
                     block="true"
                     theme="danger"
@@ -64,7 +67,7 @@
                     <i class="fab fa-google mr-2"></i>
                     <span> {{ $t("labels.signUpUsingGoogle") }} </span>
                 </pf-button>
-            </div>
+            </div> -->
 
             <router-link to="/login" class="text-center">
                 {{ $t("labels.alreadyHaveMembership") }}

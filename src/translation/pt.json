@@ -1,0 +1,62 @@
+{
+    "labels": {
+        "signInToStart": "Entre para iniciar sua sessão",
+        "rememberMe": "Lembrar de mim",
+        "signIn": "Entrar",
+        "signInUsingFB": "Entrar usando Facebook",
+        "signUpUsingFB": "Cadastrar usando Facebook",
+        "SignInUsingGoogle": "Entrar usando Google",
+        "signUpUsingGoogle": "Cadastrar usando Google",
+        "forgotPassword": "Esqueci minha senha",
+        "registerMembership": "Cadastrar nova conta",
+        "admin": "Admin",
+        "mqtt": "MQTT",
+        "login": "Entrar",
+        "loading": "Carregando...",
+        "copyright": "Direito de Cópia",
+        "allRightReserved": "Todos os direitos reservados",
+        "version": "Versão",
+        "seeAllNotification": "Ver todas as notificações",
+        "notifications": "Notificações",
+        "newMessages": "novas mensagens",
+        "mins": "mins",
+        "hours": "horas",
+        "days": "dias",
+        "friendRequests": "pedidos de amizade",
+        "newReports": "novos relatórios",
+        "profile": "Perfil",
+        "followers": "Seguidores",
+        "sales": "Vendas",
+        "friends": "Amigos",
+        "signOut": "Sair",
+        "memberSince": "Membro desde",
+        "home": "Início",
+        "contact": "Contato",
+        "dashboard": "Dashboard",
+        "devices": "Dispositivos",
+        "users": "Usuarios",
+        "mainMenu": "Menu principal",
+        "subMenu": "Sub menu",
+        "privacyPolicy": "Política de Privacidade",
+        "iAgree": "Eu concordo com",
+        "terms": "termos",
+        "register": "Cadastro",
+        "alreadyHaveMembership": "Já possu cadastro",
+        "userProfile": "Perfil do Usuário"
+    },
+    "messages": {
+        "retrieveNewPassword": "Esqueceu sua senha? Aqui pode recuperar sua senha facilmente.",
+        "recoverYourPasswordNow": "Você está a um passo da sua nova senha, recupere sua senha agora."
+    },
+    "buttons": {
+        "requestNewPassword": "Pedir nova senha"
+    },
+    "languages": {
+        "english": "English",
+        "german": "German",
+        "french": "French",
+        "spanish": "Spanish",
+        "turkish": "Turkish",
+        "portuguese": "Português"
+    }
+}
